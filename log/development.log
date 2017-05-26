@@ -67,3 +67,10 @@ Processing by UsersController#index as HTML
 Completed 200 OK in 215ms (Views: 191.3ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-05-26 23:34:35 +0300
+Processing by UsersController#index as HTML
+  Rendering users/index.html.erb within layouts/application
+  Rendered users/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 230ms (Views: 213.0ms)
+
+
