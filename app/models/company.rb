@@ -1,2 +1,3 @@
 class Company < ApplicationResource
+  
 end
