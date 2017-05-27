@@ -1,3 +1,11 @@
+<style>
+.container-full {
+  margin: 0 auto;
+  width: 100%;
+}
+</style>
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -9,6 +17,11 @@
   </head>
 
   <body>
-    <%= yield %>
+    <%= render 'layouts/header' %>
+
+    <div class="container-full">
+      <%= yield %>
+      <%= render 'layouts/footer' %>
+    </div>
   </body>
 </html>

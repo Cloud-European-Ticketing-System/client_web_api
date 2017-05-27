@@ -2,7 +2,6 @@ log/*
 tmp/*
 .rvmrc
 .DS_Store
-config/*.yml
 !config/errors.yml
 coverage
 .ruby-version
