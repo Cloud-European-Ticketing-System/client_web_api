@@ -6,3 +6,4 @@ tmp/*
 coverage
 .ruby-version
 .idea
+/.idea
