@@ -1,0 +1,2 @@
+class Auth < ApplicationResource
+end
