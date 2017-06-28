@@ -1,6 +1,7 @@
 class UsersController < ApplicationController
+  skip_before_action :add_headers
 
   def show
-    current_user
+    @user = current_user
   end
 end

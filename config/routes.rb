@@ -3,4 +3,10 @@ Rails.application.routes.draw do
   root to: 'dashboard#index'
 
   get '/home' => 'static_pages#home'
+
+  resource :users, only: [:show]
+  resource :registrations
+  resource :sessions
+  resource :subscriptions
+  resource :devices
 end
